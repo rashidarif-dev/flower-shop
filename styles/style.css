@@ -1,0 +1,56 @@
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* Common Styles */
+
+.btn-primary {
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Header Style */
+header {
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-text {
+  margin-left: 240px;
+}
+
+.header-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+
+.header-desc {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+
+.header-img {
+  width: 635px;
+  height: 600px;
+  margin: 50px 120px 0px 97px;
+}
