@@ -4,6 +4,9 @@
   margin: 0;
 }
 
+span {
+  color: #e55473;
+}
 /* Common Styles */
 
 .btn-primary {
@@ -26,10 +29,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 120px;
 }
 
 .header-text {
-  margin-left: 240px;
+  margin-left: 120px;
 }
 
 .header-title {
@@ -53,4 +57,125 @@ header {
   width: 635px;
   height: 600px;
   margin: 50px 120px 0px 97px;
+}
+
+/* Main Section Style */
+
+.fetured-sec {
+  margin: 0px 120px 120px 120px;
+}
+
+.ff-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.ff-desc {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 10px 210px 48px 210px;
+}
+
+.ff-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ff-img {
+  width: 464px;
+  height: 538px;
+  margin-right: 24px;
+}
+
+.purple {
+  background-color: #e55473;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 310px;
+  height: 428px;
+  padding: 110px 39px 5px 38px;
+}
+
+.blue {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 370px;
+  height: 370px;
+  padding: 147px 5px 25px 24px;
+}
+
+.gray {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 314px;
+  height: 471px;
+  padding: 67px 35px 0px 35px;
+}
+
+.ff-img-text {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.scnd-featured {
+  margin-top: 120px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 120px;
+  /* padding: 86px 236px; */
+}
+
+.sf-img {
+  padding: 70px 70px;
+}
+
+/* Deal Offer Section */
+
+.hot-deal {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding: 50px 0px;
+  margin-bottom: 120px;
+}
+
+.deal-text{
+    text-align: center;
+    margin: 0px 120px;
+}
+
+.deal-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.deal-desc {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 594px;
+  margin-bottom: 24px;
 }
